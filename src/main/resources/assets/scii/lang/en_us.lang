@@ -1,0 +1,9 @@
+tile.first_of_all.name=First of All
+tile.click_counter.name=Click Counter
+tile.item_heap.name=Item Heap
+tile.power_battery.name=Power Generator
+
+itemGroup.scii=Machines and Blocks
+
+msg.item_not_compatible.info=Incompatible Item!
+msg.heap_overflow.info=No superfluous space for more items!

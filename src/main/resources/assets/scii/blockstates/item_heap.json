@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "scii:item_heap"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

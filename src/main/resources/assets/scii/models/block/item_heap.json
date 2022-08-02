@@ -1,0 +1,28 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "scii:blocks/coilside",
+		"1": "scii:blocks/structureblock",
+		"particle": "scii:blocks/coilside"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 16, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 14], "texture": "#0"},
+				"east": {"uv": [0, 0, 12, 14], "texture": "#0"},
+				"south": {"uv": [0, 0, 12, 14], "texture": "#0"},
+				"west": {"uv": [0, 0, 12, 14], "texture": "#0"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#1"},
+				"down": {"uv": [0, 0, 12, 12], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}
