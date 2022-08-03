@@ -2,26 +2,34 @@
   "forge_marker": 1,
 
   "defaults": {
-    "model": "scii:power_battery"
+    "transform": "forge:default-block",
+    "model": "minecraft:orientable",
+    "textures": {
+      "top": "scii:blocks/battery_lithium_top_alt",
+      "front": "scii:blocks/battery_front_default",
+      "side": "scii:blocks/battery_lithium_front"
+    }
   },
 
   "variants": {
 
     "facing": {
       "north": {},
-      "south": {"y": 180},
-      "east":  {"y": 90},
-      "west":  {"y": -90}
+      "south": {"model": "minecraft:orientable", "y": 180},
+      "east":  {"model": "minecraft:orientable", "y": 90},
+      "west":  {"model": "minecraft:orientable", "y": -90}
     },
+
     "active": {
       "true": {
-        "model": "scii:power_battery_active"
+        "model": "minecraft:orientable",
+        "textures": {
+          "top": "scii:blocks/battery_lithium_top_alt",
+          "front": "scii:blocks/battery_front_active",
+          "side": "scii:blocks/battery_lithium_front"
+        }
       },
-      "false": {
-        "model": "scii:power_battery"
-      }
+      "false": {}
     }
-
-
   }
 }
